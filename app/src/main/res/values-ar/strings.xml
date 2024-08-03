@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Islami App</string>
+    <string name="name">اسلامي</string>
+    <string name="surah">اسم السورة</string>
+    <string name="ayat">عدد الايات</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Islami App</string>
+    <string name="name">Eslami</string>
+    <string name="surah">Surah Name</string>
+    <string name="ayat">Ayat Numbers</string>
+    <!-- TODO: Remove or change this placeholder numberOfTasbeh -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
