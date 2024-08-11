@@ -11,6 +11,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.example.islamiapp.R
 
+//tasbeeh fragment
 class TasbehFragment : Fragment() {
     lateinit var numberOfTasbeh: TextView
     lateinit var sebhaTextBtn: Button
