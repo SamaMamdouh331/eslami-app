@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/default_bg"
-    tools:context=".hadith.HadethActivity">
+    tools:context=".fragments.HadethFragment">
 
     <TextView
         android:id="@+id/eslami"

@@ -1,5 +1,4 @@
 package com.example.islamiapp.quraan
-
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -9,9 +8,7 @@ import com.example.islamiapp.fragments.QuraanFragment
 import com.example.islamiapp.fragments.RadioFragment
 import com.example.islamiapp.fragments.TasbehFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-
 class MainPageActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_page)
@@ -23,7 +20,6 @@ class MainPageActivity : AppCompatActivity() {
                 .replace(R.id.main, QuraanFragment())
                 .commit()
         }
-
         bottomNavigationView.setOnItemSelectedListener { item ->
             var selectedFragment: Fragment? = null
             when (item.itemId) {

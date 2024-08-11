@@ -1,5 +1,4 @@
 package com.example.islamiapp.hadith
-
 class HadithConstant {
     companion object {
         var ahadithName: ArrayList<String> = arrayListOf(

@@ -10,8 +10,6 @@ import com.example.islamiapp.R
 
 class HadithAdapter(var ahadith: ArrayList<HadithDM>, var onClick: (HadithDM, Int) -> Unit) :
     Adapter<HadithAdapter.MyViewHolder>() {
-
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.ahadeth_list, parent, false)
         return MyViewHolder(view)
@@ -26,7 +24,6 @@ class HadithAdapter(var ahadith: ArrayList<HadithDM>, var onClick: (HadithDM, In
             onClick(hadith, position)
         }
     }
-
 
     class MyViewHolder(itemView: View) : ViewHolder(itemView) {
         val name: TextView = itemView.findViewById(R.id.hadithName)

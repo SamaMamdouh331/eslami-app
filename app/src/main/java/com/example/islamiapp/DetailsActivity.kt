@@ -10,7 +10,6 @@ class DetailsActivity : AppCompatActivity() {
         const val FILE_NAME = "fileName"
         const val TITLE = "title"
     }
-
     lateinit var fileName: String
     lateinit var title: String
     lateinit var content: TextView
@@ -25,15 +24,10 @@ class DetailsActivity : AppCompatActivity() {
         val surah: TextView = findViewById(R.id.title)
         content = findViewById(R.id.content)
         surah.text = title
-
-
         var description = assets.open(fileName).bufferedReader().use {
             it.readText()
-
         }
         content.text = description
-
-
         goBack = findViewById(R.id.goBack)
         goBack.setOnClickListener {
             finish()
